@@ -19,4 +19,4 @@
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
 
-sed -i 's/IMAGE_SIZE := 15872k/IMAGE_SIZE := 32256k/g' ./target/linux/ath79/image/generic.mk
+#sed -i 's/IMAGE_SIZE := 15872k/IMAGE_SIZE := 32256k/g' ./target/linux/ath79/image/generic.mk
